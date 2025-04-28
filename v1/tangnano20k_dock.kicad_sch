@@ -8817,9 +8817,6 @@
     (path "/0331ec4d-b3bf-4145-9efb-ad1204df77fa/ed6b927f-3b5d-41b2-9795-eb8130bac097"
       (reference "J11") (unit 1) (value "DB9_Male_MountingHoles") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm")
     )
-    (path "/0331ec4d-b3bf-4145-9efb-ad1204df77fa/b074fe9d-ba20-475d-bad7-4199d39373e6"
-      (reference "J12") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical")
-    )
     (path "/c4da9864-8b51-46a9-b974-d8e464266696"
       (reference "JP1") (unit 1) (value "Jumper_03x08") (footprint "TangNano20k:PinHeader_3x08_P2.54mm_Vertical")
     )
@@ -8831,6 +8828,9 @@
     )
     (path "/fbcedbc7-01f1-4487-bf0d-2ac3ec78ebcf"
       (reference "JP4") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/0331ec4d-b3bf-4145-9efb-ad1204df77fa/b074fe9d-ba20-475d-bad7-4199d39373e6"
+      (reference "JP5") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical")
     )
     (path "/99dba36f-0791-4286-9889-5ed93bc1d54a/3561f704-3f01-4eeb-835c-843f68920e0a"
       (reference "L1") (unit 1) (value "3u3") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
