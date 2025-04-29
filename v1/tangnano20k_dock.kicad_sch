@@ -7448,7 +7448,7 @@
     (property "Value" "AudioJack3" (id 1) (at 271.78 36.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "TangNano20k:Jack_3.5mm_Lumberg_1503_07_Horizontal" (id 2) (at 275.59 44.45 0)
+    (property "Footprint" "TangNano20k:Jack_3.5mm_CUI_SJ1-3523N_Horizontal" (id 2) (at 275.59 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 275.59 44.45 0)
@@ -8884,7 +8884,7 @@
       (reference "J7") (unit 1) (value "FCR684205T") (footprint "TangNano20k:FCR684205T")
     )
     (path "/4877468b-ee74-43f7-a4dc-6a0ddb9f2b4d"
-      (reference "J8") (unit 1) (value "AudioJack3") (footprint "TangNano20k:Jack_3.5mm_Lumberg_1503_07_Horizontal")
+      (reference "J8") (unit 1) (value "AudioJack3") (footprint "TangNano20k:Jack_3.5mm_CUI_SJ1-3523N_Horizontal")
     )
     (path "/99dba36f-0791-4286-9889-5ed93bc1d54a/43d73b4f-c3a1-4d26-9e13-eae64fb1719d"
       (reference "J9") (unit 1) (value "DB15_Female_HighDensity_MountingHoles") (footprint "TangNano20k:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm")
