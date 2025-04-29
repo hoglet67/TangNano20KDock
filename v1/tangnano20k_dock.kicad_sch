@@ -7650,7 +7650,7 @@
     (uuid 85beec70-e003-477e-bc44-e48b266bacd8)
     (property "Reference" "J2" (id 0) (at 71.12 66.04 0))
     (property "Value" "2x20 Pin Female" (id 1) (at 69.85 68.58 0))
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" (id 2) (at 69.85 95.25 0)
+    (property "Footprint" "TangNano20k:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles" (id 2) (at 69.85 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 69.85 95.25 0)
@@ -8866,7 +8866,7 @@
       (reference "J1") (unit 1) (value "Mini-DIN-6") (footprint "TangNano20k:minidin6")
     )
     (path "/85beec70-e003-477e-bc44-e48b266bacd8"
-      (reference "J2") (unit 1) (value "2x20 Pin Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "2x20 Pin Female") (footprint "TangNano20k:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles")
     )
     (path "/7e3d36e3-8c4f-4d6a-a649-cbd6581978b4"
       (reference "J3") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
