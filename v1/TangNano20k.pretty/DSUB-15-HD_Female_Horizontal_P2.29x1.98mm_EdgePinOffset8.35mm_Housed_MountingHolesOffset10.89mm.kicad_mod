@@ -69,7 +69,7 @@
   (pad "15" thru_hole circle (at -9.16 5.08) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp b10ab24c-9e79-425d-80c2-2aa9d683ded2))
   (model "${KICAD6_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm.wrl"
     (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (scale (xyz 1 1.1 1))
     (rotate (xyz 0 0 0))
   )
 )

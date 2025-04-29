@@ -33,4 +33,9 @@
   (pad "4" thru_hole circle (at 3.4 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 603eb45f-23b5-48c2-9361-ee2816422f73))
   (pad "5" thru_hole circle (at -3.4 2.5) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp c1c93fa7-198c-41a2-9476-48dedfff84d8))
   (pad "6" thru_hole circle (at 3.4 2.5) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp f1ceac18-465d-48a0-9e49-41bf2667a2e0))
+  (model "${KIPRJMOD}/TangNano20k.pretty/Conn_Mini_DIN_round_6.stp"
+    (offset (xyz 0 1.7 -0.5))
+    (scale (xyz 1 1.05 1))
+    (rotate (xyz 0 0 180))
+  )
 )
