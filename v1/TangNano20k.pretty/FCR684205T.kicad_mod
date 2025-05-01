@@ -28,7 +28,7 @@
   (pad "1" thru_hole circle (at 2.54 -8.5) (size 1.7 1.7) (drill 0.8) (layers *.Cu *.Mask) (tstamp 6db6ecd1-f608-4144-9a48-024b3181aa73))
   (pad "2" thru_hole circle (at 0 -8.5) (size 1.7 1.7) (drill 0.8) (layers *.Cu *.Mask) (tstamp 39fba70d-ab95-45d8-91bb-c800c3337a4e))
   (pad "3" thru_hole circle (at -2.54 -8.5) (size 1.7 1.7) (drill 0.8) (layers *.Cu *.Mask) (tstamp 9f52c0ab-aaa7-4045-b29d-72d1ed514121))
-  (model "/home/dmb/atom/TangNano20KDock/v1/TangNano20k.pretty/FCR684205T%20OTJ5.stp"
+  (model "${KIPRJMOD}/TangNano20k.pretty/FCR684205T%20OTJ5.stp"
     (offset (xyz 0 0 6.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
