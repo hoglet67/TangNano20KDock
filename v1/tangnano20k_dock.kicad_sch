@@ -7535,7 +7535,7 @@
     (uuid 23e0812c-8650-479d-a1a6-e0d5388e06e9)
     (property "Reference" "D1" (id 0) (at 186.3725 38.1 0))
     (property "Value" "PMEG3020EP" (id 1) (at 186.3725 40.64 0))
-    (property "Footprint" "Diode_SMD:D_SOD-128" (id 2) (at 186.69 44.45 0)
+    (property "Footprint" "TangNano20k:D_SOD-128" (id 2) (at 186.69 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 186.69 44.45 0)
@@ -9213,7 +9213,7 @@
       (reference "C23") (unit 1) (value "47p") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/23e0812c-8650-479d-a1a6-e0d5388e06e9"
-      (reference "D1") (unit 1) (value "PMEG3020EP") (footprint "Diode_SMD:D_SOD-128")
+      (reference "D1") (unit 1) (value "PMEG3020EP") (footprint "TangNano20k:D_SOD-128")
     )
     (path "/3efa4c66-1bea-40a4-bda9-02b28c07af29"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "TangNano20k:MountingHole_3.2mm_M3")
