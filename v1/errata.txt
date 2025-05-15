@@ -1,0 +1,13 @@
+Issues with the v1.00 PCB
+-------------------------
+
+Tang Nano Footprint holes a bit small
+
+3.5mm jack footprint has six unnecessary mounting holes
+
+PAEN not biased correctly for L/R channel operation (needs to be ~0.5V)
+
+PWM audio could be improved:
+- It would be better for the DAC and PWM audio filter capacitors to be
+seperate. Then the PWM audio R could be decreased and the C increased
+to lower the output impedence and reduce the mains hum.
