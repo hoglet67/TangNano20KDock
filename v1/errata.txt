@@ -11,3 +11,10 @@ PWM audio could be improved:
 - It would be better for the DAC and PWM audio filter capacitors to be
 seperate. Then the PWM audio R could be decreased and the C increased
 to lower the output impedence and reduce the mains hum.
+- It should be bc AC coupled via 10uF capacitors
+
+KeyConfig jumper doesn't allow a simple switch to be connected. It
+needs to be a switch to 3V3. This might be hard to fix as it's really
+a Nano limitation.
+
+Add test points for VGA output
