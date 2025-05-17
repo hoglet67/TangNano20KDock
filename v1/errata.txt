@@ -3,6 +3,8 @@ Issues with the v1.00 PCB
 
 Tang Nano Footprint holes a bit small
 
+PS/2 Footprint holes a bit small
+
 3.5mm jack footprint has six unnecessary mounting holes
 
 PAEN not biased correctly for L/R channel operation (needs to be ~0.5V)
