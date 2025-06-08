@@ -5,7 +5,9 @@ Tang Nano Footprint holes a bit small
 
 PS/2 Footprint holes a bit small
 
-3.5mm jack footprint has six unnecessary mounting holes
+3.5mm jack footprint has six unnecessary mounting holes. The best way
+of fitting is to trim the centre pin of the socket so the 6 plastic
+legs will go down into the holes.
 
 PAEN not biased correctly for L/R channel operation (needs to be ~0.5V)
 
@@ -20,3 +22,6 @@ needs to be a switch to 3V3. This might be hard to fix as it's really
 a Nano limitation.
 
 Add test points for VGA output
+
+Consider flipping the two layers, so that all the traces are on the
+solder side. This would make any modding easier.
