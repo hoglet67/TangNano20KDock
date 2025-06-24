@@ -25,3 +25,16 @@ Add test points for VGA output
 
 Consider flipping the two layers, so that all the traces are on the
 solder side. This would make any modding easier.
+
+Add a Power On Reset RC network for multi-boot (e.g. connected to U4 pin 10).
+
+Improvements for the V2.00 PCB
+==============================
+
+Switch to I2C and include:
+
+- ADS1115 ADC and Analog Port Connector
+
+- MCP23017 port expander
+
+- More config jumpers
