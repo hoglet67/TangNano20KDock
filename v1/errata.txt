@@ -5,7 +5,7 @@ Tang Nano Footprint holes a bit small
 
 PS/2 Footprint holes a bit small
 
-3.5mm jack footprint has six unnecessary mounting holes. The best way
+Phono footprint has six unnecessary mounting holes. The best way
 of fitting is to trim the centre pin of the socket so the 6 plastic
 legs will go down into the holes.
 
