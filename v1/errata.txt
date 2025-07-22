@@ -38,3 +38,9 @@ Switch to I2C and include:
 - MCP23017 port expander
 
 - More config jumpers
+
+Somehow magic up two additional pins for cassette in/out
+
+Somehow magic up four additional pins for a full RS232 interface
+
+One idea would be to use a shift register for the tube control outputs (A2..A0, RnW, RSTn, nTube). Another idea would be to use an I2C expander.
