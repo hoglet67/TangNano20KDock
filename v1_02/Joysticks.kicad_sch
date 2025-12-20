@@ -5732,12 +5732,6 @@
 		(uuid "09969e39-fa98-405e-bc1b-ef6131a3e50b")
 	)
 	(junction
-		(at 77.47 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f65dc59-3f7f-4d58-9f6c-f01b00c0ba6f")
-	)
-	(junction
 		(at 248.92 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5784,6 +5778,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "487dea2d-1135-4bbd-b991-fd0e93ceb9f7")
+	)
+	(junction
+		(at 77.47 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48b3830a-681b-4f09-aba2-cbd9f8895bdb")
 	)
 	(junction
 		(at 54.61 181.61)
@@ -5940,12 +5940,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8f63324-67fa-486f-8bee-115b836bfe95")
-	)
-	(junction
-		(at 57.15 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa77e4e1-ca65-4c71-87ee-5dacc5737706")
 	)
 	(junction
 		(at 83.82 124.46)
@@ -7155,6 +7149,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 124.46) (xy 77.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abaf126-1ea3-492c-9683-c07311a75918")
+	)
+	(wire
+		(pts
 			(xy 107.95 97.79) (xy 107.95 100.33)
 		)
 		(stroke
@@ -7445,16 +7449,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 124.46) (xy 77.47 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af646361-57f0-4050-aafd-77ddfcc5a12a")
-	)
-	(wire
-		(pts
 			(xy 69.85 176.53) (xy 110.49 176.53)
 		)
 		(stroke
@@ -7492,16 +7486,6 @@
 			(type default)
 		)
 		(uuid "b42dee67-dbf8-4ce8-91cc-7d8ddd1392e8")
-	)
-	(wire
-		(pts
-			(xy 58.42 163.83) (xy 57.15 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f57e09-ba1b-41a5-95fc-83f595e419f8")
 	)
 	(wire
 		(pts
@@ -8213,16 +8197,6 @@
 		)
 		(uuid "49995576-8fcf-4d28-997c-8c922a76ec4e")
 	)
-	(label ""
-		(at 81.28 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c2af528-9267-4af6-bf30-3b38a061d965")
-	)
 	(label "Cfg0"
 		(at 80.01 181.61 180)
 		(effects
@@ -8423,50 +8397,6 @@
 		)
 		(uuid "ffff4551-1b96-4c03-a178-47a8dcd1c2dd")
 	)
-	(global_label "PWM_R"
-		(shape input)
-		(at 269.24 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16abb224-8906-46cc-9e82-9b45d44077ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.6356 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM_L"
-		(shape input)
-		(at 269.24 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9488e237-c58c-4130-abd2-a0fc8e6f8d53")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.3937 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "JS_Load_n"
 		(shape input)
 		(at 128.27 127 180)
@@ -8478,6 +8408,17 @@
 		)
 		(uuid "798ace8d-f3e5-473f-8005-48c4ae96029e")
 	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 269.24 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "904ec8b7-08d1-40bc-8ac5-11e193436266")
+	)
 	(hierarchical_label "JS_Clk"
 		(shape input)
 		(at 128.27 132.08 180)
@@ -8488,6 +8429,17 @@
 			(justify right)
 		)
 		(uuid "96219684-dd46-4899-82d7-648a2558876c")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 269.24 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a85db221-7a40-4532-a31c-fa0c31971d8b")
 	)
 	(hierarchical_label "JS_Data"
 		(shape output)
