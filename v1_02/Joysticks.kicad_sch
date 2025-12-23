@@ -4737,7 +4737,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Reference_Voltage:LM4040DBZ-2.0"
+		(symbol "Reference_Voltage:LM4040LP-2.0"
 			(pin_names
 				(offset 0.0254)
 				(hide yes)
@@ -4753,7 +4753,7 @@
 					)
 				)
 			)
-			(property "Value" "LM4040DBZ-2.0"
+			(property "Value" "LM4040LP-2.0"
 				(at 0 -3.175 0)
 				(effects
 					(font
@@ -4761,7 +4761,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -4781,7 +4781,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2.048V Precision Micropower Shunt Voltage Reference, SOT-23"
+			(property "Description" "2.048V Precision Micropower Shunt Voltage Reference, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4799,7 +4799,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "TO?92*Inline*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4808,7 +4808,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM4040DBZ-2.0_0_1"
+			(symbol "LM4040LP-2.0_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
@@ -4846,30 +4846,11 @@
 					)
 				)
 			)
-			(symbol "LM4040DBZ-2.0_1_1"
+			(symbol "LM4040LP-2.0_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -1.27 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4894,7 +4875,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10082,7 +10063,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+		(property "Footprint" "TangNano20k:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 248.92 106.68 0)
 			(effects
 				(font
@@ -11673,7 +11654,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:LM4040DBZ-2.0")
+		(lib_id "Reference_Voltage:LM4040LP-2.0")
 		(at 88.9 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11699,7 +11680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
 			(at 93.98 111.76 0)
 			(effects
 				(font
@@ -11719,7 +11700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.048V Precision Micropower Shunt Voltage Reference, SOT-23"
+		(property "Description" "2.048V Precision Micropower Shunt Voltage Reference, TO-92"
 			(at 88.9 111.76 0)
 			(effects
 				(font
@@ -11730,9 +11711,6 @@
 		)
 		(pin "3"
 			(uuid "6dc1ade0-2554-48cc-9e85-f161829929b0")
-		)
-		(pin "1"
-			(uuid "1f17f963-a5fa-4009-a6ad-6aea0899e904")
 		)
 		(pin "2"
 			(uuid "6d1b5320-731c-4c97-b610-7947bc981495")
@@ -11899,7 +11877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DB9_Male_MountingHoles"
+		(property "Value" "DE9_Pins_MountingHoles"
 			(at 68.58 68.58 0)
 			(effects
 				(font
