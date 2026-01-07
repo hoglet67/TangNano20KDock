@@ -10,3 +10,10 @@ of fitting is to trim the centre pin of the socket so the 6 plastic
 legs will go down into the holes.
 
 U6 symbol/footprint incorrect
+
+RTC trimmer capactor footprint incorrect (pads spaces to far
+apart). It would be nice if this could accomodate a 1206 capacitor.
+
+ADC Channels connected backwards (this can be fixed in the FPGA, so I
+don't propose to fix it, otherwise that would create compatibility
+issues).
