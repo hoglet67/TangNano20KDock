@@ -16,9 +16,9 @@ U6 symbol/footprint (TO92) incorrect.
 
 RTC trimmer capactor footprint pads are spaced to far apart. The part
 can just about be soldered between them, but it's quite tricky. Move
-the pads closer together. It would be nice if this could accomodate a
-fixed 1206 capacitor.
+the pads closer together. It would be nice if this could also
+accomodate a fixed 1206 capacitor.
 
-The ADC Channels connected backwards into the ADS1115 module. This can
-easily be fixed in the FPGA, so I don't propose to fix it future PCBs,
-as that would create compatibility issues.
+The four joystick channels are connected backwards into the ADS1115
+ADC module. This can easily be fixed in the FPGA, so I don't propose
+to fix it future PCBs, as that would create compatibility issues.
