@@ -1,19 +1,24 @@
 Issues with the v1.01 PCB
 -------------------------
 
-Tang Nano Footprint holes a bit small; increase to 0.9mm
+The Tang Nano Footprint holes are a bit small; increase to 0.9mm
 
-PS/2 Footprint holes a bit small; increase to 0.9mm
+The PS/2 Footprint holes are a bit small; increase to 0.9mm. The
+connectors Alan used (the green/purple PS/2 sockets from AliExpress I
+think) do fit OK, but the connectors I sourced from CPC don't, unless
+you carefully file down the pins with a needle file.
 
-Phono footprint has six unnecessary mounting holes. The best way
+The Phono footprint has six unnecessary mounting holes. The best way
 of fitting is to trim the centre pin of the socket so the 6 plastic
 legs will go down into the holes.
 
-U6 symbol/footprint incorrect
+U6 symbol/footprint (TO92) incorrect.
 
-RTC trimmer capactor footprint incorrect (pads spaces to far
-apart). It would be nice if this could accomodate a 1206 capacitor.
+RTC trimmer capactor footprint pads are spaced to far apart. The part
+can just about be soldered between them, but it's quite tricky. Move
+the pads closer together. It would be nice if this could accomodate a
+fixed 1206 capacitor.
 
-ADC Channels connected backwards (this can be fixed in the FPGA, so I
-don't propose to fix it, otherwise that would create compatibility
-issues).
+The ADC Channels connected backwards into the ADS1115 module. This can
+easily be fixed in the FPGA, so I don't propose to fix it future PCBs,
+as that would create compatibility issues.
